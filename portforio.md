@@ -1,18 +1,17 @@
 # ポートフォリオ
 
-これは大久保成将のポートフォリオです
 ## Profile
 
 名前:大久保成将( Okubo Shigemasa)
 
-研究分野:強化学習を用いた評価 //TOOD 修正
+研究分野:自動生成コンテンツの強化学習を用いた評価 
 
 所属コミュニティ:アンドロイド熊本支部所属
 
 
 Androidアプリ作ったり脱出ゲームのフレームワークなどを作成しています
 
-個人的な関心として、ゲームにおける課題としてゲーム内コンテンツ(例えばステージ上の配置)の生成を自動化することです.(コンテンツの自動生成)
+個人的な関心として、ゲーム内コンテンツ(例えばステージ上の配置)の自動生成です.
 
 ## Tool & Language & Library
 今までに使用したことがあるツール一覧
@@ -44,7 +43,7 @@ Androidアプリ作ったり脱出ゲームのフレームワークなどを作�
 | Mattise | メディアピッカー|
 | Fuel | httpリクエスト|
 | Calligraphy| フォント差し替え|
-| koma | 行列計算|
+| koma,Eigen | 行列計算|
 
 
 ### Unityで使用したことがあるライブラリ
@@ -88,13 +87,19 @@ Androidアプリ作ったり脱出ゲームのフレームワークなどを作�
 
 [コッコラン ](https://play.google.com/store/apps/details?id=com.homura.chickenrun)
 
-[VRプレゼンテーション(動画)]()
+[VRプレゼンテーション(進捗報告動画)] ([1](https://youtu.be/Efpo7ZptMwo),[2](https://youtu.be/XfcbuniaXjA))
 
-VTuber(詳細はメールなどで)
+VRを使用した授業支援動画の作成
+
+* [1](https://youtu.be/k2VhzwQGtNg)
+* [2](https://youtu.be/_K5nKD80lJg)
+* [3](https://youtu.be/4UMRNHPYWd0)
+* [4](https://youtu.be/bVSbvMSNE8A)
 
 
 
-### 脱出ゲーム- ノードを用いた脱出ゲーム作成フレームワークEscapeRoomTemplateの作成
+
+### 脱出ゲーム- ノードを用いた脱出ゲーム作成フレームワークEscapeRoomTemplate(リポジトリ非公開)の作成
  
 * 複数人による作品 
 * 主にBlenderを用いたシーンのレンダリング　フレームワーク作成を担当(クレジットに明記されてます)
@@ -115,13 +120,12 @@ iOS
  * [‎脱出ゲーム -キッチンの謎](https://itunes.apple.com/jp/app//id1435888487?mt=8)
  * [‎脱出ゲーム　-アンティークルームの謎](https://itunes.apple.com/jp/app//id1443984065)
  
-
-
- ニコニコ動画-例のアレデイリーで毎日1位を取ったことがあります(詳細はメールなどで)（よくわからない人は無視してもらって構いません)
  
 ## Research
-pdf持ってきてリンク貼る
-自動生成のリンクも貼る
+
+* [修士中間発表資料](https://drive.google.com/open?id=1Eqo5tvigb9c4ZLcq_2Fx0XwXe-dDYey3)
+* [修士中間発表資料(プレゼン)](https://docs.google.com/presentation/d/1yaGm_cpEGe0w5aec0mvPp8Cv1Hi1Y-oLrEKhIIAqIKM/edit?usp=sharing)
+
 ## Link
 
 * [Twitter](https://twitter.com/Alt_Shift_N)

@@ -2,326 +2,437 @@
 <html>
 
 <head>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>portforio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>portforio</title>
 
 
-<style type="text/css">
-body {
-  font-family: Helvetica, arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: white;
-  padding: 30px; }
+    <style type="text/css">
+        body {
+            font-family: Helvetica, arial, sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: white;
+            padding: 30px;
+        }
 
-body > *:first-child {
-  margin-top: 0 !important; }
-body > *:last-child {
-  margin-bottom: 0 !important; }
+        body > *:first-child {
+            margin-top: 0 !important;
+        }
 
-a {
-  color: #4183C4; }
-a.absent {
-  color: #cc0000; }
-a.anchor {
-  display: block;
-  padding-left: 30px;
-  margin-left: -30px;
-  cursor: pointer;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0; }
+        body > *:last-child {
+            margin-bottom: 0 !important;
+        }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 20px 0 10px;
-  padding: 0;
-  font-weight: bold;
-  -webkit-font-smoothing: antialiased;
-  cursor: text;
-  position: relative; }
+        a {
+            color: #4183C4;
+        }
 
-h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
-  text-decoration: none; }
+        a.absent {
+            color: #cc0000;
+        }
 
-h1 tt, h1 code {
-  font-size: inherit; }
+        a.anchor {
+            display: block;
+            padding-left: 30px;
+            margin-left: -30px;
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+        }
 
-h2 tt, h2 code {
-  font-size: inherit; }
+        h1, h2, h3, h4, h5, h6 {
+            margin: 20px 0 10px;
+            padding: 0;
+            font-weight: bold;
+            -webkit-font-smoothing: antialiased;
+            cursor: text;
+            position: relative;
+        }
 
-h3 tt, h3 code {
-  font-size: inherit; }
+        h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+            text-decoration: none;
+        }
 
-h4 tt, h4 code {
-  font-size: inherit; }
+        h1 tt, h1 code {
+            font-size: inherit;
+        }
 
-h5 tt, h5 code {
-  font-size: inherit; }
+        h2 tt, h2 code {
+            font-size: inherit;
+        }
 
-h6 tt, h6 code {
-  font-size: inherit; }
+        h3 tt, h3 code {
+            font-size: inherit;
+        }
 
-h1 {
-  font-size: 28px;
-  color: black; }
+        h4 tt, h4 code {
+            font-size: inherit;
+        }
 
-h2 {
-  font-size: 24px;
-  border-bottom: 1px solid #cccccc;
-  color: black; }
+        h5 tt, h5 code {
+            font-size: inherit;
+        }
 
-h3 {
-  font-size: 18px; }
+        h6 tt, h6 code {
+            font-size: inherit;
+        }
 
-h4 {
-  font-size: 16px; }
+        h1 {
+            font-size: 28px;
+            color: black;
+        }
 
-h5 {
-  font-size: 14px; }
+        h2 {
+            font-size: 24px;
+            border-bottom: 1px solid #cccccc;
+            color: black;
+        }
 
-h6 {
-  color: #777777;
-  font-size: 14px; }
+        h3 {
+            font-size: 18px;
+        }
 
-p, blockquote, ul, ol, dl, li, table, pre {
-  margin: 15px 0; }
+        h4 {
+            font-size: 16px;
+        }
 
-hr {
-  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
-  border: 0 none;
-  color: #cccccc;
-  height: 4px;
-  padding: 0;
-}
+        h5 {
+            font-size: 14px;
+        }
 
-body > h2:first-child {
-  margin-top: 0;
-  padding-top: 0; }
-body > h1:first-child {
-  margin-top: 0;
-  padding-top: 0; }
-  body > h1:first-child + h2 {
-    margin-top: 0;
-    padding-top: 0; }
-body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
-  margin-top: 0;
-  padding-top: 0; }
+        h6 {
+            color: #777777;
+            font-size: 14px;
+        }
 
-a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
-  margin-top: 0;
-  padding-top: 0; }
+        p, blockquote, ul, ol, dl, li, table, pre {
+            margin: 15px 0;
+        }
 
-h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
-  margin-top: 0; }
+        hr {
+            background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+            border: 0 none;
+            color: #cccccc;
+            height: 4px;
+            padding: 0;
+        }
 
-li p.first {
-  display: inline-block; }
-li {
-  margin: 0; }
-ul, ol {
-  padding-left: 30px; }
+        body > h2:first-child {
+            margin-top: 0;
+            padding-top: 0;
+        }
 
-ul :first-child, ol :first-child {
-  margin-top: 0; }
+        body > h1:first-child {
+            margin-top: 0;
+            padding-top: 0;
+        }
 
-dl {
-  padding: 0; }
-  dl dt {
-    font-size: 14px;
-    font-weight: bold;
-    font-style: italic;
-    padding: 0;
-    margin: 15px 0 5px; }
-    dl dt:first-child {
-      padding: 0; }
-    dl dt > :first-child {
-      margin-top: 0; }
-    dl dt > :last-child {
-      margin-bottom: 0; }
-  dl dd {
-    margin: 0 0 15px;
-    padding: 0 15px; }
-    dl dd > :first-child {
-      margin-top: 0; }
-    dl dd > :last-child {
-      margin-bottom: 0; }
+        body > h1:first-child + h2 {
+            margin-top: 0;
+            padding-top: 0;
+        }
 
-blockquote {
-  border-left: 4px solid #dddddd;
-  padding: 0 15px;
-  color: #777777; }
-  blockquote > :first-child {
-    margin-top: 0; }
-  blockquote > :last-child {
-    margin-bottom: 0; }
+        body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+            margin-top: 0;
+            padding-top: 0;
+        }
 
-table {
-  padding: 0;border-collapse: collapse; }
-  table tr {
-    border-top: 1px solid #cccccc;
-    background-color: white;
-    margin: 0;
-    padding: 0; }
-    table tr:nth-child(2n) {
-      background-color: #f8f8f8; }
-    table tr th {
-      font-weight: bold;
-      border: 1px solid #cccccc;
-      margin: 0;
-      padding: 6px 13px; }
-    table tr td {
-      border: 1px solid #cccccc;
-      margin: 0;
-      padding: 6px 13px; }
-    table tr th :first-child, table tr td :first-child {
-      margin-top: 0; }
-    table tr th :last-child, table tr td :last-child {
-      margin-bottom: 0; }
+        a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+            margin-top: 0;
+            padding-top: 0;
+        }
 
-img {
-  max-width: 100%; }
+        h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+            margin-top: 0;
+        }
 
-span.frame {
-  display: block;
-  overflow: hidden; }
-  span.frame > span {
-    border: 1px solid #dddddd;
-    display: block;
-    float: left;
-    overflow: hidden;
-    margin: 13px 0 0;
-    padding: 7px;
-    width: auto; }
-  span.frame span img {
-    display: block;
-    float: left; }
-  span.frame span span {
-    clear: both;
-    color: #333333;
-    display: block;
-    padding: 5px 0 0; }
-span.align-center {
-  display: block;
-  overflow: hidden;
-  clear: both; }
-  span.align-center > span {
-    display: block;
-    overflow: hidden;
-    margin: 13px auto 0;
-    text-align: center; }
-  span.align-center span img {
-    margin: 0 auto;
-    text-align: center; }
-span.align-right {
-  display: block;
-  overflow: hidden;
-  clear: both; }
-  span.align-right > span {
-    display: block;
-    overflow: hidden;
-    margin: 13px 0 0;
-    text-align: right; }
-  span.align-right span img {
-    margin: 0;
-    text-align: right; }
-span.float-left {
-  display: block;
-  margin-right: 13px;
-  overflow: hidden;
-  float: left; }
-  span.float-left span {
-    margin: 13px 0 0; }
-span.float-right {
-  display: block;
-  margin-left: 13px;
-  overflow: hidden;
-  float: right; }
-  span.float-right > span {
-    display: block;
-    overflow: hidden;
-    margin: 13px auto 0;
-    text-align: right; }
+        li p.first {
+            display: inline-block;
+        }
 
-code, tt {
-  margin: 0 2px;
-  padding: 0 5px;
-  white-space: nowrap;
-  border: 1px solid #eaeaea;
-  background-color: #f8f8f8;
-  border-radius: 3px; }
+        li {
+            margin: 0;
+        }
 
-pre code {
-  margin: 0;
-  padding: 0;
-  white-space: pre;
-  border: none;
-  background: transparent; }
+        ul, ol {
+            padding-left: 30px;
+        }
 
-.highlight pre {
-  background-color: #f8f8f8;
-  border: 1px solid #cccccc;
-  font-size: 13px;
-  line-height: 19px;
-  overflow: auto;
-  padding: 6px 10px;
-  border-radius: 3px; }
+        ul :first-child, ol :first-child {
+            margin-top: 0;
+        }
 
-pre {
-  background-color: #f8f8f8;
-  border: 1px solid #cccccc;
-  font-size: 13px;
-  line-height: 19px;
-  overflow: auto;
-  padding: 6px 10px;
-  border-radius: 3px; }
-  pre code, pre tt {
-    background-color: transparent;
-    border: none; }
+        dl {
+            padding: 0;
+        }
 
-sup {
-    font-size: 0.83em;
-    vertical-align: super;
-    line-height: 0;
-}
+        dl dt {
+            font-size: 14px;
+            font-weight: bold;
+            font-style: italic;
+            padding: 0;
+            margin: 15px 0 5px;
+        }
 
-kbd {
-  display: inline-block;
-  padding: 3px 5px;
-  font-size: 11px;
-  line-height: 10px;
-  color: #555;
-  vertical-align: middle;
-  background-color: #fcfcfc;
-  border: solid 1px #ccc;
-  border-bottom-color: #bbb;
-  border-radius: 3px;
-  box-shadow: inset 0 -1px 0 #bbb
-}
+        dl dt:first-child {
+            padding: 0;
+        }
 
-* {
-	-webkit-print-color-adjust: exact;
-}
-@media screen and (min-width: 914px) {
-    body {
-        width: 854px;
-        margin:0 auto;
-    }
-}
-@media print {
-	table, pre {
-		page-break-inside: avoid;
-	}
-	pre {
-		word-wrap: break-word;
-	}
-}
-</style>
+        dl dt > :first-child {
+            margin-top: 0;
+        }
+
+        dl dt > :last-child {
+            margin-bottom: 0;
+        }
+
+        dl dd {
+            margin: 0 0 15px;
+            padding: 0 15px;
+        }
+
+        dl dd > :first-child {
+            margin-top: 0;
+        }
+
+        dl dd > :last-child {
+            margin-bottom: 0;
+        }
+
+        blockquote {
+            border-left: 4px solid #dddddd;
+            padding: 0 15px;
+            color: #777777;
+        }
+
+        blockquote > :first-child {
+            margin-top: 0;
+        }
+
+        blockquote > :last-child {
+            margin-bottom: 0;
+        }
+
+        table {
+            padding: 0;
+            border-collapse: collapse;
+        }
+
+        table tr {
+            border-top: 1px solid #cccccc;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        table tr:nth-child(2n) {
+            background-color: #f8f8f8;
+        }
+
+        table tr th {
+            font-weight: bold;
+            border: 1px solid #cccccc;
+            margin: 0;
+            padding: 6px 13px;
+        }
+
+        table tr td {
+            border: 1px solid #cccccc;
+            margin: 0;
+            padding: 6px 13px;
+        }
+
+        table tr th :first-child, table tr td :first-child {
+            margin-top: 0;
+        }
+
+        table tr th :last-child, table tr td :last-child {
+            margin-bottom: 0;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        span.frame {
+            display: block;
+            overflow: hidden;
+        }
+
+        span.frame > span {
+            border: 1px solid #dddddd;
+            display: block;
+            float: left;
+            overflow: hidden;
+            margin: 13px 0 0;
+            padding: 7px;
+            width: auto;
+        }
+
+        span.frame span img {
+            display: block;
+            float: left;
+        }
+
+        span.frame span span {
+            clear: both;
+            color: #333333;
+            display: block;
+            padding: 5px 0 0;
+        }
+
+        span.align-center {
+            display: block;
+            overflow: hidden;
+            clear: both;
+        }
+
+        span.align-center > span {
+            display: block;
+            overflow: hidden;
+            margin: 13px auto 0;
+            text-align: center;
+        }
+
+        span.align-center span img {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        span.align-right {
+            display: block;
+            overflow: hidden;
+            clear: both;
+        }
+
+        span.align-right > span {
+            display: block;
+            overflow: hidden;
+            margin: 13px 0 0;
+            text-align: right;
+        }
+
+        span.align-right span img {
+            margin: 0;
+            text-align: right;
+        }
+
+        span.float-left {
+            display: block;
+            margin-right: 13px;
+            overflow: hidden;
+            float: left;
+        }
+
+        span.float-left span {
+            margin: 13px 0 0;
+        }
+
+        span.float-right {
+            display: block;
+            margin-left: 13px;
+            overflow: hidden;
+            float: right;
+        }
+
+        span.float-right > span {
+            display: block;
+            overflow: hidden;
+            margin: 13px auto 0;
+            text-align: right;
+        }
+
+        code, tt {
+            margin: 0 2px;
+            padding: 0 5px;
+            white-space: nowrap;
+            border: 1px solid #eaeaea;
+            background-color: #f8f8f8;
+            border-radius: 3px;
+        }
+
+        pre code {
+            margin: 0;
+            padding: 0;
+            white-space: pre;
+            border: none;
+            background: transparent;
+        }
+
+        .highlight pre {
+            background-color: #f8f8f8;
+            border: 1px solid #cccccc;
+            font-size: 13px;
+            line-height: 19px;
+            overflow: auto;
+            padding: 6px 10px;
+            border-radius: 3px;
+        }
+
+        pre {
+            background-color: #f8f8f8;
+            border: 1px solid #cccccc;
+            font-size: 13px;
+            line-height: 19px;
+            overflow: auto;
+            padding: 6px 10px;
+            border-radius: 3px;
+        }
+
+        pre code, pre tt {
+            background-color: transparent;
+            border: none;
+        }
+
+        sup {
+            font-size: 0.83em;
+            vertical-align: super;
+            line-height: 0;
+        }
+
+        kbd {
+            display: inline-block;
+            padding: 3px 5px;
+            font-size: 11px;
+            line-height: 10px;
+            color: #555;
+            vertical-align: middle;
+            background-color: #fcfcfc;
+            border: solid 1px #ccc;
+            border-bottom-color: #bbb;
+            border-radius: 3px;
+            box-shadow: inset 0 -1px 0 #bbb
+        }
+
+        * {
+            -webkit-print-color-adjust: exact;
+        }
+
+        @media screen and (min-width: 914px) {
+            body {
+                width: 854px;
+                margin: 0 auto;
+            }
+        }
+
+        @media print {
+            table, pre {
+                page-break-inside: avoid;
+            }
+
+            pre {
+                word-wrap: break-word;
+            }
+        }
+    </style>
 
 
 </head>
@@ -347,144 +458,148 @@ kbd {
 <p>今までに使用したことがあるツール一覧</p>
 
 <table>
-<thead>
-<tr>
-<th>Tool</th>
-<th>目的</th>
-</tr>
-</thead>
+    <thead>
+    <tr>
+        <th>Tool</th>
+        <th>目的</th>
+    </tr>
+    </thead>
 
-<tbody>
-<tr>
-<td>Android Studio</td>
-<td>Android アプリ作成</td>
-</tr>
-<tr>
-<td>Rider</td>
-<td>Unityのスクリプト作成</td>
-</tr>
-<tr>
-<td>IDEA</td>
-<td>デスクトップアプリ</td>
-</tr>
-<tr>
-<td>Unity</td>
-<td>ゲーム作成　 VR</td>
-</tr>
-<tr>
-<td>Blender</td>
-<td>脱出ゲームのシーン作成</td>
-</tr>
-</tbody>
+    <tbody>
+    <tr>
+        <td>Android Studio</td>
+        <td>Android アプリ作成</td>
+    </tr>
+    <tr>
+        <td>Rider</td>
+        <td>Unityのスクリプト作成</td>
+    </tr>
+    <tr>
+        <td>IDEA</td>
+        <td>デスクトップアプリ</td>
+    </tr>
+    <tr>
+        <td>Unity</td>
+        <td>ゲーム作成　 VR</td>
+    </tr>
+    <tr>
+        <td>Blender</td>
+        <td>脱出ゲームのシーン作成</td>
+    </tr>
+    </tbody>
 </table>
 
 <p>それ以外にもJetbrains社製品 WebStorm ,Pycharmなど</p>
 
 <table>
-<thead>
-<tr>
-<th>Language</th>
-<th>目的</th>
-</tr>
-</thead>
+    <thead>
+    <tr>
+        <th>Language</th>
+        <th>目的</th>
+    </tr>
+    </thead>
 
-<tbody>
-<tr>
-<td>Java</td>
-<td>アプリ作成</td>
-</tr>
-<tr>
-<td>Kotlin</td>
-<td>アプリ作成</td>
-</tr>
-<tr>
-<td>Python3</td>
-<td>機械学習 スクレイピング AWS(Lambda)</td>
-</tr>
-<tr>
-<td>C#</td>
-<td>Unity</td>
-</tr>
-<tr>
-<td>C++</td>
-<td>NDK(Android)</td>
-</tr>
-</tbody>
+    <tbody>
+    <tr>
+        <td>Java</td>
+        <td>アプリ作成</td>
+    </tr>
+    <tr>
+        <td>Kotlin</td>
+        <td>アプリ作成</td>
+    </tr>
+    <tr>
+        <td>Python3</td>
+        <td>機械学習 スクレイピング AWS(Lambda)</td>
+    </tr>
+    <tr>
+        <td>C#</td>
+        <td>Unity</td>
+    </tr>
+    <tr>
+        <td>C++</td>
+        <td>NDK(Android)</td>
+    </tr>
+    </tbody>
 </table>
 
 <h3 id="toc_3">Android アプリで使用したことがあるライブラリ</h3>
 
 <table>
-<thead>
-<tr>
-<th>Library</th>
-<th>内容</th>
-</tr>
-</thead>
+    <thead>
+    <tr>
+        <th>Library</th>
+        <th>内容</th>
+    </tr>
+    </thead>
 
-<tbody>
-<tr>
-<td>Firebase</td>
-<td>データベース,認証,通知,API</td>
-</tr>
-<tr>
-<td>Piccaso</td>
-<td>画像非同期読み込み</td>
-</tr>
-<tr>
-<td>Mattise</td>
-<td>メディアピッカー</td>
-</tr>
-<tr>
-<td>Fuel</td>
-<td>httpリクエスト</td>
-</tr>
-<tr>
-<td>Calligraphy</td>
-<td>フォント差し替え</td>
-</tr>
-<tr>
-<td>koma,Eigen</td>
-<td>行列計算</td>
-</tr>
-</tbody>
+    <tbody>
+    <tr>
+        <td>Firebase</td>
+        <td>データベース,認証,通知,API</td>
+    </tr>
+    <tr>
+        <td>Piccaso</td>
+        <td>画像非同期読み込み</td>
+    </tr>
+    <tr>
+        <td>Mattise</td>
+        <td>メディアピッカー</td>
+    </tr>
+    <tr>
+        <td>Fuel</td>
+        <td>httpリクエスト</td>
+    </tr>
+    <tr>
+        <td>Calligraphy</td>
+        <td>フォント差し替え</td>
+    </tr>
+    <tr>
+        <td>koma,Eigen</td>
+        <td>行列計算</td>
+    </tr>
+    </tbody>
 </table>
 
 <h3 id="toc_4">Unityで使用したことがあるライブラリ</h3>
 
 <table>
-<thead>
-<tr>
-<th>Library</th>
-<th>内容</th>
-</tr>
-</thead>
+    <thead>
+    <tr>
+        <th>Library</th>
+        <th>内容</th>
+    </tr>
+    </thead>
 
-<tbody>
-<tr>
-<td>UniRx</td>
-<td>Reactive Property ,ObjectPool</td>
-</tr>
-<tr>
-<td>Zenject</td>
-<td>Componentのバインド</td>
-</tr>
-<tr>
-<td>MessagePack</td>
-<td>シリアライズ,外部ストレージに保存</td>
-</tr>
-<tr>
-<td>VRTK</td>
-<td>VR環境作成</td>
-</tr>
-<tr>
-<td>Node<em>Editor</em>Framework</td>
-<td>ノード作成</td>
-</tr>
-</tbody>
+    <tbody>
+    <tr>
+        <td>UniRx</td>
+        <td>Reactive Property ,ObjectPool</td>
+    </tr>
+    <tr>
+        <td>Zenject</td>
+        <td>Componentのバインド</td>
+    </tr>
+    <tr>
+        <td>MessagePack</td>
+        <td>シリアライズ,外部ストレージに保存</td>
+    </tr>
+    <tr>
+        <td>VRTK</td>
+        <td>VR環境作成</td>
+    </tr>
+    <tr>
+        <td>Node<em>Editor</em>Framework</td>
+        <td>ノード作成</td>
+    </tr>
+    </tbody>
 </table>
 
 <h2 id="toc_5">Works</h2>
+
+<p><a href="https://youtuberthumbnail.tk">ユーチューバーサムネジェネレータ</a></p>
+
+<p>Youtubeのうざいサムネを作るSPA PWA 対応</p>
 
 <p><a href="https://play.google.com/store/apps/developer?id=UsaOS.dev">My Google Play Store</a></p>
 
@@ -500,11 +615,13 @@ kbd {
 
 <p>月文字を文字or画像から生成するアプリ -</p>
 
-<p><a href="https://play.google.com/store/apps/details?id=homura.tech.luanagenerator">🌕月文字ジェネレータ🌑  </a></p>
+<p><a href="https://play.google.com/store/apps/details?id=homura.tech.luanagenerator">🌕月文字ジェネレータ🌑 </a></p>
 
 <p>月文字ジェネレータの副産物-</p>
 
-<p><a href="https://play.google.com/apps/publish/?account=6712106957924985223#AppDashboardPlace:p=tech.homura.massivepoo&amp;appid=4973491633390399703">ダッシュボード - 💩&quot;Massive Poop(Emoji)🚽 - Google Play Console</a></p>
+<p>
+    <a href="https://play.google.com/apps/publish/?account=6712106957924985223#AppDashboardPlace:p=tech.homura.massivepoo&amp;appid=4973491633390399703">ダッシュボード
+        - 💩&quot;Massive Poop(Emoji)🚽 - Google Play Console</a></p>
 
 <p>サイコロシミュレータ-</p>
 
@@ -519,17 +636,17 @@ kbd {
 <p>VRを使用した授業支援動画の作成</p>
 
 <ul>
-<li><a href="https://youtu.be/k2VhzwQGtNg">1</a></li>
-<li><a href="https://youtu.be/_K5nKD80lJg">2</a></li>
-<li><a href="https://youtu.be/4UMRNHPYWd0">3</a></li>
-<li><a href="https://youtu.be/bVSbvMSNE8A">4</a></li>
+    <li><a href="https://youtu.be/k2VhzwQGtNg">1</a></li>
+    <li><a href="https://youtu.be/_K5nKD80lJg">2</a></li>
+    <li><a href="https://youtu.be/4UMRNHPYWd0">3</a></li>
+    <li><a href="https://youtu.be/bVSbvMSNE8A">4</a></li>
 </ul>
 
 <h3 id="toc_6">脱出ゲーム- ノードを用いた脱出ゲーム作成フレームワークEscapeRoomTemplate(リポジトリ非公開)の作成</h3>
 
 <ul>
-<li>複数人による作品 </li>
-<li>主にBlenderを用いたシーンのレンダリング　フレームワーク作成を担当(クレジットに明記されてます)</li>
+    <li>複数人による作品</li>
+    <li>主にBlenderを用いたシーンのレンダリング　フレームワーク作成を担当(クレジットに明記されてます)</li>
 </ul>
 
 <h4 id="toc_7">作品群</h4>
@@ -537,36 +654,37 @@ kbd {
 <p>Android </p>
 
 <ul>
-<li><a href="https://play.google.com/store/apps/details?id=tech.homura.escape_kitchen">脱出ゲーム　キッチンの謎 </a></li>
-<li><a href="https://play.google.com/store/apps/details?id=tech.homura.escape_europeanroom">脱出ゲーム　アンティークルームの謎 </a></li>
-<li><a href="https://play.google.com/store/apps/details?id=tech.homura.escape_hotel">脱出ゲーム　ビジネスホテルの謎 </a></li>
-<li><a href="https://play.google.com/store/apps/details?id=tech.homura.escape_oneroom">脱出ゲーム　ワンルームの謎 </a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=tech.homura.escape_kitchen">脱出ゲーム　キッチンの謎 </a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=tech.homura.escape_europeanroom">脱出ゲーム　アンティークルームの謎 </a>
+    </li>
+    <li><a href="https://play.google.com/store/apps/details?id=tech.homura.escape_hotel">脱出ゲーム　ビジネスホテルの謎 </a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=tech.homura.escape_oneroom">脱出ゲーム　ワンルームの謎 </a></li>
 </ul>
 
 <p>iOS</p>
 
 <ul>
-<li><a href="https://itunes.apple.com/jp/app//id1410037838">‎脱出ゲーム -ワンルームの謎</a></li>
-<li><a href="https://itunes.apple.com/jp/app//id1435888487?mt=8">‎脱出ゲーム -キッチンの謎</a></li>
-<li><a href="https://itunes.apple.com/jp/app//id1443984065">‎脱出ゲーム　-アンティークルームの謎</a></li>
+    <li><a href="https://itunes.apple.com/jp/app//id1410037838">‎脱出ゲーム -ワンルームの謎</a></li>
+    <li><a href="https://itunes.apple.com/jp/app//id1435888487?mt=8">‎脱出ゲーム -キッチンの謎</a></li>
+    <li><a href="https://itunes.apple.com/jp/app//id1443984065">‎脱出ゲーム　-アンティークルームの謎</a></li>
 </ul>
 
 <h2 id="toc_8">Research</h2>
 
 <ul>
-<li><a href="https://drive.google.com/open?id=1Eqo5tvigb9c4ZLcq_2Fx0XwXe-dDYey3">修士中間発表資料</a></li>
-<li><a href="https://docs.google.com/presentation/d/1yaGm_cpEGe0w5aec0mvPp8Cv1Hi1Y-oLrEKhIIAqIKM/edit?usp=sharing">修士中間発表資料(プレゼン)</a></li>
+    <li><a href="https://drive.google.com/open?id=1Eqo5tvigb9c4ZLcq_2Fx0XwXe-dDYey3">修士中間発表資料</a></li>
+    <li><a href="https://docs.google.com/presentation/d/1yaGm_cpEGe0w5aec0mvPp8Cv1Hi1Y-oLrEKhIIAqIKM/edit?usp=sharing">修士中間発表資料(プレゼン)</a>
+    </li>
 </ul>
 
 <h2 id="toc_9">Link</h2>
 
 <ul>
-<li><a href="https://twitter.com/Alt_Shift_N">Twitter</a></li>
-<li><a href="https://qiita.com/Alt_Shift_N">Qiita</a></li>
-<li><a href="https://github.com/OhkuboSGMS">Github</a></li>
-<li><a href="mailto:ginger.os777146th@gmail.com">Mail</a></li>
+    <li><a href="https://twitter.com/Alt_Shift_N">Twitter</a></li>
+    <li><a href="https://qiita.com/Alt_Shift_N">Qiita</a></li>
+    <li><a href="https://github.com/OhkuboSGMS">Github</a></li>
+    <li><a href="mailto:ginger.os777146th@gmail.com">Mail</a></li>
 </ul>
-
 
 
 <script type="text/x-mathjax-config">
@@ -584,9 +702,11 @@ if (typeof MathJaxListener !== 'undefined') {
 }
 
 })();
+
 </script>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 
 </body>

@@ -438,11 +438,19 @@
 
 <body>
 	
-	  <div id="content"></div>
+	  <div id="content" src="https://raw.githubusercontent.com/OhkuboSGMS/OhkuboSGMS.github.io/master/portforio.md"></div>
 	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
-    document.getElementById('content').innerHTML =
-      marked('# Marked in the browser\n\nRendered by **marked**.');
+	    var target = document.getElementById("content");
+	    $.ajax({
+                    url: target.attributes["src"].value,
+                }).success(function(data){
+                    target.append(marked(data));
+                }).error(function(data){
+                    target.append("This content failed to load.");
+                });
+//     document.getElementById('content').innerHTML =
+//       marked('# Marked in the browser\n\nRendered by **marked**.');
   </script>
 
 <h1 id="toc_0">ポートフォリオ</h1>

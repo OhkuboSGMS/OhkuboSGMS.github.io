@@ -57,7 +57,7 @@ Androidアプリ作ったり脱出ゲームのフレームワークなどを作�
 
 
 
-## Works
+## Works-作成したアプリ&活動
 
  [My Google Play Store](https://play.google.com/store/apps/developer?id=UsaOS.dev)
  ---
@@ -81,12 +81,22 @@ Androidアプリ作ったり脱出ゲームのフレームワークなどを作�
 
 サイコロシミュレータ-
 
+Unityを使用したサイコロ物理シミュレータ
+
+工夫した点:サイコロの面のの算出
+
 [DiceRoll ](https://play.google.com/store/apps/details?id=tech.homura.diceroll)
 
-カジュアルゲームっぽい何か-
+#### カジュアルゲームを志向したゲーム
 
-[コッコラン ](https://play.google.com/store/apps/details?id=com.homura.chickenrun)
+研究においてもカジュアルゲームのためのコンテンツ作成というのを行っています
 
+* [コッコラン ](https://play.google.com/store/apps/details?id=com.homura.chickenrun)
+* [Return Ball] (https://play.google.com/store/apps/details?id=tech.homura.endlessturn)
+
+
+
+#### VR
 [VRプレゼンテーション(進捗報告動画)] ([1](https://youtu.be/Efpo7ZptMwo),[2](https://youtu.be/XfcbuniaXjA))
 
 VRを使用した授業支援動画の作成

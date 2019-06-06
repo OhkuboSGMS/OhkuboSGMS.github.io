@@ -432,27 +432,32 @@
             }
         }
     </style>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
 
 </head>
 
 <body>
-	
-	  <div id="content" src="https://raw.githubusercontent.com/OhkuboSGMS/OhkuboSGMS.github.io/master/portforio.md"></div>
-	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script>
-	    var target = document.getElementById("content");
-	    $.ajax({
-                    url: target.attributes["src"].value,
-                }).success(function(data){
-                    target.append(marked(data));
-                }).error(function(data){
-                    target.append("This content failed to load.");
-                });
-//     document.getElementById('content').innerHTML =
-//       marked('# Marked in the browser\n\nRendered by **marked**.');
-  </script>
 
+<div id="content" src="https://raw.githubusercontent.com/OhkuboSGMS/OhkuboSGMS.github.io/master/portforio.md"></div>
+<script>
+    const target = document.getElementById("content");
+    axios.get(target.getAttribute("src"))
+        .then(function (response) {
+            // handle success
+            // console.log(response.data)
+            target.innerHTML = marked(response.data)
+        })
+        .catch(function (error) {
+            // handle error
+            target.innerHTML =" no mark down file"
+            console.log(error);
+        })
+        .finally(function () {
+            // always executed
+        });
+</script>
 
 
 </body>

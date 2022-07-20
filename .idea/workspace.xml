@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e0c125c-69f6-4a24-9fab-5b0045d9dc8d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/archetypes/default.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/content/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/static/chao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/archetypes/default.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/exampleSite/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/exampleSite/content/_index.Rmarkdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/exampleSite/content/_index.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/exampleSite/content/about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/exampleSite/content/note/2017-06-13-a-quick-note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/exampleSite/content/note/2017-06-14-another-note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/exampleSite/content/post/2015-07-23-lorem-ipsum.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/exampleSite/content/post/2016-02-14-hello-markdown.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/exampleSite/layouts/partials/foot_custom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/hugo-xmin.Rproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/images/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/images/tn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/layouts/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/layouts/_default/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/layouts/_default/single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/layouts/_default/terms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/layouts/partials/foot_custom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/layouts/partials/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/layouts/partials/head_custom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/layouts/partials/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/static/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/theme.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/OhkuboSGMS.github.io.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon3-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon_strangeroom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hugo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portforio.md" beforeDir="false" afterPath="$PROJECT_DIR$/hugo/portforio.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26jwestNPL4F4vKIWE3hNaj8Hxz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "exceleditor.install": "true",
+    "last_opened_file_path": "C:/Users/ookubo/PycharmProjects/OhkuboSGMS.github.io/static",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ookubo\PycharmProjects\OhkuboSGMS.github.io\static" />
+      <recent name="C:\Users\ookubo\PycharmProjects\OhkuboSGMS.github.io\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ookubo\PycharmProjects\OhkuboSGMS.github.io\hugo" />
+      <recent name="C:\Users\ookubo\PycharmProjects\OhkuboSGMS.github.io" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e0c125c-69f6-4a24-9fab-5b0045d9dc8d" name="Changes" comment="" />
+      <created>1647950401457</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647950401457</updated>
+      <workItem from="1647950402553" duration="107000" />
+      <workItem from="1647950512208" duration="839000" />
+      <workItem from="1647951374372" duration="5546000" />
+      <workItem from="1648986808844" duration="1196000" />
+      <workItem from="1650179154479" duration="1269000" />
+      <workItem from="1650182874982" duration="33000" />
+      <workItem from="1650183044182" duration="5000" />
+      <workItem from="1657197127861" duration="1518000" />
+      <workItem from="1658318912251" duration="5400000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

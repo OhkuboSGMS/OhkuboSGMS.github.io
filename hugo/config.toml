@@ -1,0 +1,8 @@
+baseURL = '/'
+languageCode = 'ja-jp'
+title = "ポートフォリオ"
+theme = "xmin"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

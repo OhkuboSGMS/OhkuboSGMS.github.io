@@ -58,30 +58,29 @@ title: Portfolio
 ### 2020年4月 ~ 10月
 
 Unity ml-agentsを用いた衝突回避移動エージェントの開発
-[afe](https://github.com/Unity-Technologies/ml-agents/releases/tag/0.15.0)
 
 <details>
-  <summary>
- [Unity ml-agents](https://github.com/Unity-Technologies/ml-agents)を使用して，6軸ロボットアームの衝突回避エージェント作成.
-
+  <summary>詳細</summary>
+  
+　[Unity ml-agents](https://github.com/Unity-Technologies/ml-agents)を使用して，6軸ロボットアームの衝突回避エージェント作成.
  バージョンは　[Beta 0.15.0](https://github.com/Unity-Technologies/ml-agents/releases/tag/0.15.0)付近を使用.
 
- 概要:
+ ## 概要
   6軸ロボットの先端を目標に対して障害物を避けるように移動するエージェントを強化学習を用いて汎用的なモデルを作成する．
   
- 具体的な内容:
+ ## 具体的な内容
   各アクチュエータの加速度を行動として，ロボットアームを移動させる．
 　Unityの物理環境内において，衝突判定のシミュレーションを行い，学習する．
 　状態は各アクチュエータの角度，レイの衝突判定などを使用．
 
-　結果:
+## 結果 
   ある程度決まった状況では回避行動が可能になったが汎用的な動きを学習はできなかった．
 　Unityでデフォルトで用意されている学習アルゴリズムでトライするに終わったため，より様々な手法を調査，論文等もロボットアームに関連する
 　情報をより集めたうえで，どう始めるかも含めて検討していければより良い結果が残せたのではないかと考えられる.
 
 　入社途中から参画したプロジェクトのため，既に用意されている状況から頑張るしかない状態もあった．　
-
-  当時のml-agetnドキュメントを翻訳した記事:https://qiita.com/Alt_Shift_N/items/2c37fbb26d739b7f3046
+  
+  当時のml-agetnドキュメントを翻訳した記事:　[リンク](https://qiita.com/Alt_Shift_N/items/2c37fbb26d739b7f3046)
   
  使用ソフトウェア
  * Unity
@@ -89,13 +88,6 @@ Unity ml-agentsを用いた衝突回避移動エージェントの開発
  * python 
  * pytorch
  * [baselines](https://github.com/openai/baselines)
-</summary>
-  
-  ## Heading
-  1. An entry
-  2. list
-     * With some
-     * sub entries
 </details>
 
 ### 2020年10月 ~ 11月

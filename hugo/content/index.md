@@ -24,7 +24,9 @@ title: Portfolio
 
 ## 作品
 
-| アプリ | リンク|
+ 公開しているアプリ一覧
+ 
+| プラットフォーム | リンク|
 | --- | --- |
 | Android| https://play.google.com/store/apps/developer?id=homura+LLC |
 | iOS | https://apps.apple.com/jp/developer/homura-llc/id1236637936|
@@ -43,6 +45,8 @@ title: Portfolio
 * [Qiita](https://qiita.com/Alt_Shift_N)
 * [Github](https://github.com/OhkuboSGMS)
 * [Mail](mailto:ginger.os777146th@gmail.com)
+* [Zenn](https://zenn.dev/alt_shift_n)
+* [Blog](https://ohkubosgms.hatenablog.com/)
 
 ## 略歴
 

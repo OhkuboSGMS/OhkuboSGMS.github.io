@@ -22,7 +22,7 @@ title: Portfolio
 学生の頃はUnity(C#)やAndroid(Java),flutterを使用してアプリ等を作成しました．
 ```
 
-## 作品
+## 公表物
 
  公開しているアプリ一覧
  
@@ -31,6 +31,8 @@ title: Portfolio
 | Android| https://play.google.com/store/apps/developer?id=homura+LLC |
 | iOS | https://apps.apple.com/jp/developer/homura-llc/id1236637936|
 
+### 最近書いたブログ記事
+ [whisper+voicevoxでポッドキャストを変える]()
 ## 言語年数
 
 | 言語 | 年数| 
@@ -223,7 +225,7 @@ RealSenseを用いたRGBD動画像+トラッキングデータからローカル
 
 #### 具体的な内容
 
-ノートPCにに取り付けられたデプスセンサ(D415,D435)とトラッキングセンサ(T265)を用いて
+ノートPCに取り付けられたデプスセンサ(D415,D435)とトラッキングセンサ(T265)を用いて
 RGBDとPoseを取得.
 
 センサデータをOpen3DのReconstruction Systemを用いて3Dメッシュを生成．
@@ -381,6 +383,9 @@ giteaを用いたissueベースでの機能改善等.
 
 問題の切り出しや再現方法，説明の仕方等，他人への情報の伝え方の難しさ，考え方の違い等を実感．
 
+チームとしていかに効率よく開発を行うための方法などを考える機会が得られた．
+
+ただ，その機会を生かせる立場ではないため，最近思うところがあります．
 
 </details>
 
@@ -399,4 +404,3 @@ giteaを用いたissueベースでの機能改善等.
 * [内田洋行 パルスチェア](https://office.uchida.co.jp/products/pulse/)
 * [ProgressTouch RETRO(日本語配列)　赤](https://archisite.co.jp/products/archiss/progres-touch/retro-jp/)
 * [BAROCCO MD770](https://archisite.co.jp/products/mistel/barocco-md770/)
-

@@ -33,6 +33,9 @@ title: Portfolio
 
 ### 最近書いたブログ記事
  [whisper+voicevoxでポッドキャストを変える]()
+ 
+### 最近作ったリポジトリ
+ [![OhkuboSGMS/NullA - GitHub](https://gh-card.dev/repos/OhkuboSGMS/NullA.svg)](https://github.com/OhkuboSGMS/NullA)
 ## 言語年数
 
 | 言語 | 年数| 
@@ -65,10 +68,10 @@ title: Portfolio
 [案件]Unity ml-agentsを用いた衝突回避移動エージェントの開発
 
 #### 技術スタック
-
-* Unity
+ 
 * git
-* FinalIK
+* Unity(C#)
+* [FinalIK](http://root-motion.com/)
 * python
 * pytorch
 * [baselines](https://github.com/openai/baselines)
@@ -97,12 +100,13 @@ Unityの物理環境内において，衝突判定のシミュレーションを
 | エンジニア | 2 | 
 
 #### 結果
-
+プロジェクトは入社時に既に進行中のプロジェクトで途中から，強化学習の担当として参加．
+ 
 ある程度決まった状況では回避行動が可能になったが汎用的な動きを学習はできなかった．
 Unityでデフォルトで用意されている学習アルゴリズムでトライするに終わったため，より様々な手法を調査，論文等もロボットアームに関連する
 情報をより集めたうえで，どう始めるかも含めて検討していければより良い結果が残せたのではないかと考えられる.
 
-入社途中から参画したプロジェクトのため，既に用意されている状況から頑張るしかない状態もあった．
+
 
 当時のml-agentドキュメントを翻訳した記事: [リンク](https://qiita.com/Alt_Shift_N/items/2c37fbb26d739b7f3046)
 </details>
@@ -113,12 +117,13 @@ Unityでデフォルトで用意されている学習アルゴリズムでトラ
 
 #### 技術スタック
 
+* git
+* docker
 * python
 * keras
-* docker
-* CARLA
-* Qt
-* git
+* [CARLA](https://carla.org/)
+* pyQt
+
 
 <details>
   <summary>詳細</summary>

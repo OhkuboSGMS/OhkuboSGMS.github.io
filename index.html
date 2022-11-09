@@ -212,7 +212,7 @@ Unreal Engine製の自動運転フレームワークワークであるCARLAを�
 <h4 id="技術スタック-2">技術スタック</h4>
 <ul>
 <li>python</li>
-<li>Open3D</li>
+<li><a href="http://www.open3d.org/">Open3D</a></li>
 </ul>
 <details>
   <summary>詳細</summary>
@@ -262,7 +262,7 @@ Unreal Engine製の自動運転フレームワークワークであるCARLAを�
 </tr>
 <tr>
 <td>Open3D Doc</td>
-<td>　doc</td>
+<td>　http://www.open3d.org/docs/release/</td>
 </tr>
 <tr>
 <td>物体認識のための3次元特徴量とその周辺</td>
@@ -276,8 +276,8 @@ Unreal Engine製の自動運転フレームワークワークであるCARLAを�
 <h4 id="技術スタック-3">技術スタック</h4>
 <ul>
 <li>python</li>
-<li>Open3D</li>
-<li>Intel RealSense</li>
+<li><a href="http://www.open3d.org/">Open3D</a></li>
+<li><a href="https://intelrealsense.github.io/librealsense/python_docs/_generated/pyrealsense2.html">Intel RealSense</a></li>
 <li>D435,D415,T265</li>
 </ul>
 <details>
@@ -315,29 +315,28 @@ RGBDとPoseを取得.</p>
 納品．</p>
 </details>
 <h3 id="2021年4月--7月">2021年4月 ~ 7月</h3>
-<p>オプティカルフローを用いた工場監視アプリの作成</p>
-<p>[案件]</p>
+<p>[案件]オプティカルフローを用いた工場監視アプリの作成</p>
 <h4 id="技術スタック-4">技術スタック</h4>
 <ul>
 <li>python</li>
-<li>kivy</li>
+<li><a href="https://kivy.org/">kivy</a></li>
 <li>opencv</li>
 <li>pytorch</li>
-<li>pyinstaller</li>
+<li><a href="https://pyinstaller.org/en/stable/">pyinstaller</a></li>
 </ul>
 <details>
   <summary>詳細</summary>
 <h4 id="概要-4">概要</h4>
 <p>工場の誤動作検出アプリケーションの作成.</p>
 <h4 id="具体的な内容-4">具体的な内容</h4>
-<p>工場内の作業レーンが誤動作でストップする問題があり，問題を検出するアプリケーションを作成．
-画像ベースの異常検出等のアルゴリズム等を検討．
-最終的にオプティカルフローによる移動検出による停止検出でアプリケーションを作成．
-アプリケーションを作成するにあたって，pythonでGUIアプリを作成可能なkivyを採用．</p>
-<p>アプリ内でIPカメラ設定機能，検出機能，検出結果を出力等の監視アプリとしての一通りの機能を作成．
-検出箇所のマスク機能，クロップ機能なども開発．
-opencvでcudaの機能を使うため，cudaをwindowsでカスタムでビルド.
-アプリケーションとして納品する際にはpyinstallerを用いてビルド，exe形式で納品．</p>
+<p>工場内の作業レーンが誤動作でストップする問題があり，問題を検出するアプリケーションを作成．</p>
+<p>画像ベースの異常検出等のアルゴリズム等を検討．
+最終的にオプティカルフローによる移動検出による停止検出でアプリケーションを作成．</p>
+<p>アプリケーションを作成するにあたって，pythonでGUIアプリを作成可能なkivyを採用．</p>
+<p>アプリ内でIPカメラ設定機能，検出機能，検出結果を出力等の監視アプリとしての一通りの機能を作成．</p>
+<p>検出箇所のマスク機能，クロップ機能なども開発．</p>
+<p>opencvでcudaの機能を使うため，cudaのカスタムパッケージでビルド.</p>
+<p>アプリケーションとして納品する際にはpyinstallerを用いてビルド，exe形式で納品．</p>
 <p>同案件に参加した新入社員に対しても指導を行う．</p>
 <p>開発のメインを担当.</p>
 <h4 id="チーム構成-4">チーム構成</h4>
@@ -360,11 +359,11 @@ opencvでcudaの機能を使うため，cudaをwindowsでカスタムでビル�
 </tbody>
 </table>
 <h4 id="結論-2">結論</h4>
-<p>GUIアプリケーションとして納品．
-クライアントに満足してもらえる結果が得られた．
-アプリケーションとして必要なGUIの構造，os周辺，デバイス，動画コーデックなど総合的なスキルが必要となり，本案件で
-かなり広範囲の経験と知見が得られた．
-このアプリは次に紹介する自社開発の原型ともなるアプリケーションになった．</p>
+<p>GUIアプリケーションとして納品．</p>
+<p>クライアントに満足してもらえる結果が得られた．</p>
+<p>アプリケーションとして必要なGUIの構造，os周辺，デバイス，動画コーデックなど総合的なスキルが必要となり，本案件で
+かなり広範囲の経験と知見が得られた．</p>
+<p>このアプリは次に紹介する自社開発の原型ともなるアプリケーションになった．</p>
 </details>
 <h3 id="2021年8月--現在">2021年8月 ~ 現在</h3>
 <p>[自社開発]  学習可能な行動分類アプリの開発</p>
@@ -444,12 +443,11 @@ giteaを用いたissueベースでの機能改善等.</p>
 <p>アプリケーションを製品としてパブリッシュ,本格的な複数人でのチーム開発を行う．</p>
 <p>問題の切り出しや再現方法，説明の仕方等，他人への情報の伝え方の難しさ，考え方の違い等を実感．</p>
 <p>チームとしていかに効率よく開発を行うための方法などを考える機会が得られた．</p>
-<p>ただ，その機会を生かせる立場ではないため，最近思うところがあります．</p>
 </details>
 <h2 id="ポッドキャスト">ポッドキャスト</h2>
 <p>その週の気になった記事などを紹介.</p>
 <p>議論の練習としても行っています．</p>
-<p><a href="https://anchor.fm/yoshi-kyusu">ウェブサイト</a></p>
+<iframe src="https://anchor.fm/yoshi-kyusu/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 <p><a href="https://twitter.com/matt76t">matt</a>さんと一緒に大体週1で15分程度でやってます.</p>
 <h2 id="使用機材">使用機材</h2>
 <ul>

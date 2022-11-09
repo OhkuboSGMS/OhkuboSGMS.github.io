@@ -178,7 +178,7 @@ Unreal Engine製の自動運転フレームワークワークであるCARLAを�
 #### 技術スタック
 
 * python
-* Open3D
+* [Open3D](http://www.open3d.org/)
 
 <details>
   <summary>詳細</summary>
@@ -215,7 +215,7 @@ Open3Dに実装されている位置合わせアルゴリズム，KDTree,FLANN,�
 | title   | url  |
 | --- | --- |
 |3次元レジストレーションの基礎とOpen3Dを用いた3次元点群処理 | https://www.slideshare.net/ttamaki/3open3d3|
-| Open3D Doc| 　doc|
+| Open3D Doc| 　http://www.open3d.org/docs/release/|
 | 物体認識のための3次元特徴量とその周辺 |  http://isl.sist.chukyo-u.ac.jp/Archives/Nagoya-CV-PRML-2015March-Hashimoto.pdf|
 
 </details>
@@ -227,8 +227,8 @@ Open3Dに実装されている位置合わせアルゴリズム，KDTree,FLANN,�
 #### 技術スタック
 
 * python
-* Open3D
-* Intel RealSense
+* [Open3D](http://www.open3d.org/)
+* [Intel RealSense](https://intelrealsense.github.io/librealsense/python_docs/_generated/pyrealsense2.html)
 * D435,D415,T265
 
 <details>
@@ -267,17 +267,16 @@ RGBDとPoseを取得.
 
 ### 2021年4月 ~ 7月
 
-オプティカルフローを用いた工場監視アプリの作成
+[案件]オプティカルフローを用いた工場監視アプリの作成
 
-[案件]
 
 #### 技術スタック
 
 * python
-* kivy
+* [kivy](https://kivy.org/)
 * opencv
 * pytorch
-* pyinstaller
+* [pyinstaller](https://pyinstaller.org/en/stable/)
 
 <details>
   <summary>詳細</summary>
@@ -289,13 +288,18 @@ RGBDとPoseを取得.
 #### 具体的な内容
 
 工場内の作業レーンが誤動作でストップする問題があり，問題を検出するアプリケーションを作成．
+
 画像ベースの異常検出等のアルゴリズム等を検討．
 最終的にオプティカルフローによる移動検出による停止検出でアプリケーションを作成．
+
 アプリケーションを作成するにあたって，pythonでGUIアプリを作成可能なkivyを採用．
 
 アプリ内でIPカメラ設定機能，検出機能，検出結果を出力等の監視アプリとしての一通りの機能を作成．
+
 検出箇所のマスク機能，クロップ機能なども開発．
-opencvでcudaの機能を使うため，cudaをwindowsでカスタムでビルド.
+
+opencvでcudaの機能を使うため，cudaのカスタムパッケージでビルド.
+
 アプリケーションとして納品する際にはpyinstallerを用いてビルド，exe形式で納品．
 
 同案件に参加した新入社員に対しても指導を行う．
@@ -312,10 +316,14 @@ opencvでcudaの機能を使うため，cudaをwindowsでカスタムでビル�
 #### 結論
 
 GUIアプリケーションとして納品．
+
 クライアントに満足してもらえる結果が得られた．
+
 アプリケーションとして必要なGUIの構造，os周辺，デバイス，動画コーデックなど総合的なスキルが必要となり，本案件で
 かなり広範囲の経験と知見が得られた．
+
 このアプリは次に紹介する自社開発の原型ともなるアプリケーションになった．
+
 </details>
 
 ### 2021年8月 ~ 現在
@@ -400,7 +408,6 @@ giteaを用いたissueベースでの機能改善等.
 
 チームとしていかに効率よく開発を行うための方法などを考える機会が得られた．
 
-ただ，その機会を生かせる立場ではないため，最近思うところがあります．
 
 </details>
 
@@ -410,7 +417,8 @@ giteaを用いたissueベースでの機能改善等.
 
 議論の練習としても行っています．
 
-[ウェブサイト](https://anchor.fm/yoshi-kyusu)
+<iframe src="https://anchor.fm/yoshi-kyusu/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+
 
 [matt](https://twitter.com/matt76t)さんと一緒に大体週1で15分程度でやってます.
 

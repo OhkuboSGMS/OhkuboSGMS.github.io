@@ -13,15 +13,13 @@
       
       <guid>/</guid>
       <description>名前 大久保 成将 (Okubo Shigemasa)
- 簡単な自己紹介 仕事では主にpython ライブラリとしては OpenCV,Open3D,numpy,pytorch等を使用してCV系をメインで仕事しています．趣味で flutter(dart),Android(kotlin)等でアプリ作成など仕事では，深層学習を利用したデスクトップアプリケーションの研究，開発に従事．主に機械学習系の案件を行っています.　学生の頃はUnity(C#)やAndroid(Java,Kotlin),flutterを使用してアプリ等を作成しました． 公表物 公開しているアプリ一覧
-   プラットフォーム リンク     Android https://play.google.com/store/apps/developer?id=homura+LLC   iOS https://apps.apple.com/jp/developer/homura-llc/id1236637936    最近書いたブログ記事 whisper+voicevoxでポッドキャストを変える
+簡単な自己紹介 仕事では主にpython ライブラリとしては OpenCV,Open3D,numpy,pytorch等を使用してCV系をメインで仕事しています． 趣味で flutter(dart),Android(kotlin)等でアプリ作成など 仕事では，深層学習を利用したデスクトップアプリケーションの研究，開発に従事． 主に機械学習系の案件を行っています.　学生の頃はUnity(C#)やAndroid(Java,Kotlin),flutterを使用してアプリ等を作成しました． 公表物 公開しているアプリ一覧
+プラットフォーム リンク Android https://play.google.com/store/apps/developer?id=homura+LLC iOS https://apps.apple.com/jp/developer/homura-llc/id1236637936 最近書いたブログ記事 whisper+voicevoxでポッドキャストを変える
 最近のOSS活動 Kivyを使った，CV系検出，分類等のデモアプリの作成
-
 opencv-pythonで日本語の描画可能なカスタムビルド.
-
-　なにか色々試したサンドボックス
-
-言語年数    言語 年数     Python 5   Dart 2   kotlin 2   Cython 1    Link  Qiita Github Mail Zenn Blog  略歴  2018年 熊本大学工学部情報電子工学系学科 卒業 2020年 熊本大学大学院自然科学教育部情報工学教育プログラム 卒業 2020年 4月 ネクストシステム株式会社入社 ~ 現職  職歴詳細 ネクストシステム 2020年4月 ~ 10月 [案件]Unity ml-agentsを用いた衝突回避移動エージェントの開発</description>
+なにか色々試したサンドボックス
+言語年数 言語 年数 Python 5 Dart 2 kotlin 2 Cython 1 Link Qiita Github Mail Zenn Blog 略歴 2018年 熊本大学工学部情報電子工学系学科 卒業 2020年 熊本大学大学院自然科学教育部情報工学教育プログラム 卒業 2020年 4月 ネクストシステム株式会社入社 ~ 現職 職歴詳細 ネクストシステム 2020年4月 ~ 10月 [案件]Unity ml-agentsを用いた衝突回避移動エージェントの開発
+技術スタック git Unity(C#) FinalIK python pytorch baselines 詳細 Unity ml-agentsを使用して，6軸ロボットアームの衝突回避エージェント作成.</description>
     </item>
     
   </channel>

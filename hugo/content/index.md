@@ -15,11 +15,10 @@ title: Portfolio
 ライブラリとしては OpenCV,Open3D,numpy,pytorch等を使用してCV系をメインで仕事しています．
 趣味で flutter(dart),Android(kotlin)等でアプリ作成など
 
- 最近のメインは，Kivyを使用した行動分類アプリ開発．
- 
- サーバよりクライアント寄りで機械学習系の案件を行っています.　
+ 仕事では，深層学習を利用したデスクトップアプリケーションの研究，開発に従事．
+ 主に機械学習系の案件を行っています.　
 
-学生の頃はUnity(C#)やAndroid(Java),flutterを使用してアプリ等を作成しました．
+学生の頃はUnity(C#)やAndroid(Java,Kotlin),flutterを使用してアプリ等を作成しました．
 ```
 
 ## 公表物
@@ -32,10 +31,21 @@ title: Portfolio
 | iOS | https://apps.apple.com/jp/developer/homura-llc/id1236637936|
 
 ### 最近書いたブログ記事
- [whisper+voicevoxでポッドキャストを変える]()
+ [whisper+voicevoxでポッドキャストを変える](https://ohkubosgms.hatenablog.com/entry/whiser_voicevox)
  
-### 最近作ったリポジトリ
+### 最近のOSS活動
+ Kivyを使った，CV系検出，分類等のデモアプリの作成
+
  [![OhkuboSGMS/NullA - GitHub](https://gh-card.dev/repos/OhkuboSGMS/NullA.svg)](https://github.com/OhkuboSGMS/NullA)
+ 
+ opencv-pythonで日本語の描画可能なカスタムビルド.
+
+ [![OhkuboSGMS/opencv-python-freetype2 - GitHub](https://gh-card.dev/repos/OhkuboSGMS/opencv-python-freetype2.svg)](https://github.com/OhkuboSGMS/opencv-python-freetype2)
+
+　なにか色々試したサンドボックス
+
+ [![OhkuboSGMS/sandbox - GitHub](https://gh-card.dev/repos/OhkuboSGMS/sandbox.svg)](https://github.com/OhkuboSGMS/sandbox)
+
 ## 言語年数
 
 | 言語 | 年数| 

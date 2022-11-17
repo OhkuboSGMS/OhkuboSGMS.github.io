@@ -48,12 +48,13 @@ title: Portfolio
 
 ## 言語年数
 
-| 言語 | 年数| 
-| --- | --- |
-|Python |5|
-|Dart |2|
-|kotlin |2|
-|Cython | 1|
+| 言語              | 年数| 
+|-----------------| --- |
+| Python          |5|
+| Dart(Flutter)   |2|
+| kotlin(Android) |2|
+ | C#(Unity)     | 2|
+| Cython          | 1|
 
 ## Link
 
@@ -62,6 +63,10 @@ title: Portfolio
 * [Mail](mailto:ginger.os777146th@gmail.com)
 * [Zenn](https://zenn.dev/alt_shift_n)
 * [Blog](https://ohkubosgms.hatenablog.com/)
+
+## 資格
+
+* 基本情報技術者:2022年11月合格
 
 ## 略歴
 
@@ -335,15 +340,15 @@ GUIアプリケーションとして納品．
 * python
 * kivy
 * opencv
-* open3d
+* [open3d](https://github.com/isl-org/Open3D)
 * pytorch
-* win32api
+* [win32api](https://github.com/mhammond/pywin32)
 * C++
 * TensorRT
 * onnx
 * jenkins
 * Cython
-* zmq
+* [zmq](https://zeromq.org/)
 
 <details>
   <summary>詳細</summary>

@@ -4,58 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e0c125c-69f6-4a24-9fab-5b0045d9dc8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/archetypes/default.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/content/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/static/chao.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/archetypes/default.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/exampleSite/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/exampleSite/content/_index.Rmarkdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/exampleSite/content/_index.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/exampleSite/content/about.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/exampleSite/content/note/2017-06-13-a-quick-note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/exampleSite/content/note/2017-06-14-another-note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/exampleSite/content/post/2015-07-23-lorem-ipsum.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/exampleSite/content/post/2016-02-14-hello-markdown.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/exampleSite/layouts/partials/foot_custom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/hugo-xmin.Rproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/images/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/images/tn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/layouts/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/layouts/_default/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/layouts/_default/single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/layouts/_default/terms.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/layouts/partials/foot_custom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/layouts/partials/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/layouts/partials/head_custom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/layouts/partials/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/static/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo/themes/xmin/theme.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/OhkuboSGMS.github.io.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon3-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon_strangeroom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hugo/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portforio.md" beforeDir="false" afterPath="$PROJECT_DIR$/hugo/portforio.md" afterDir="false" />
+    <list default="true" id="8e0c125c-69f6-4a24-9fab-5b0045d9dc8d" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hugo/content/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/hugo/content/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/index.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -67,18 +43,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "exceleditor.install": "true",
-    "last_opened_file_path": "C:/Users/ookubo/PycharmProjects/OhkuboSGMS.github.io/static",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;exceleditor.install&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ookubo/PycharmProjects/tmp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ookubo\PycharmProjects\OhkuboSGMS.github.io\static" />
@@ -105,8 +83,87 @@
       <workItem from="1650182874982" duration="33000" />
       <workItem from="1650183044182" duration="5000" />
       <workItem from="1657197127861" duration="1518000" />
-      <workItem from="1658318912251" duration="5400000" />
+      <workItem from="1658318912251" duration="5758000" />
+      <workItem from="1658564662327" duration="57000" />
+      <workItem from="1660049600012" duration="1291000" />
+      <workItem from="1660651325213" duration="6000" />
+      <workItem from="1661003228597" duration="595000" />
+      <workItem from="1661265984023" duration="2324000" />
+      <workItem from="1661431316039" duration="1494000" />
+      <workItem from="1661949643026" duration="1231000" />
+      <workItem from="1662292161260" duration="6409000" />
+      <workItem from="1662469629668" duration="4096000" />
+      <workItem from="1662553524869" duration="514000" />
+      <workItem from="1667915161235" duration="1044000" />
+      <workItem from="1667998165952" duration="2627000" />
+      <workItem from="1668240610659" duration="206000" />
+      <workItem from="1668512484878" duration="2659000" />
+      <workItem from="1668687221521" duration="371000" />
     </task>
+    <task id="LOCAL-00001" summary="markedからhugoへ移行&#10;&#10;ポートフォリオも一から書き直す.&#10;職歴を追加">
+      <created>1658325311771</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658325311771</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add content">
+      <created>1661267454814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661267454814</updated>
+    </task>
+    <task id="LOCAL-00003" summary="build">
+      <created>1661267567540</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661267567540</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix summary">
+      <created>1661268053098</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661268053098</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add profile">
+      <created>1662298777861</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662298777861</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add profile">
+      <created>1667916185844</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667916185844</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update style ,content">
+      <created>1668000658297</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668000658297</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add anchor heading">
+      <created>1668513790612</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668513790612</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update">
+      <created>1668513960361</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668513960361</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,5 +191,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="markedからhugoへ移行&#10;&#10;ポートフォリオも一から書き直す.&#10;職歴を追加" />
+    <MESSAGE value="add content" />
+    <MESSAGE value="build" />
+    <MESSAGE value="fix summary" />
+    <MESSAGE value="update &amp; build" />
+    <MESSAGE value="update style ,content" />
+    <MESSAGE value="add anchor heading" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
